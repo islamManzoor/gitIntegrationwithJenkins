@@ -22,6 +22,12 @@ public class testNGGrouping {
 	}
 	
 	@Test(groups= {"functional"})
+	public void Cancel()
+	{
+		System.out.println("Cancel Successfully!");
+	}
+	
+	@Test(groups= {"functional"})
 	public void Logout()
 	{
 		System.out.println("Logout Successfully!");
