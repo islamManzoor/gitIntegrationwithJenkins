@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MytestSuite" >
+
+<!--  <parameter name = "email" value = "test@test.com" />-->
+<listeners>
+<listener class-name="testNGPackage.testNGListeners" />
+ </listeners> 
+	<test name = "testNGTest" verbose = "5">
+		<!--  <groups>
+		<run>
+		<include name="functional" />
+		<include name="performance" />
+		</run>
+		</groups>-->
+		
+		<classes>
+			<!-- <class name="testNGPackage.testNGClass" /> 
+			<class name="testNGPackage.Parameterization" />  
+			<class name="testNGPackage.DataProviderClass" />	-->	
+			<class name="testNGPackage.testNGGrouping" />
+		</classes>
+	</test>
+</suite>

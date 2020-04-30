@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [MytestSuite]">
+  <listeners>
+    <listener class-name="testNGPackage.testNGListeners"/>
+  </listeners>
+  <test parallel="none" name="testNGTest(failed)">
+    <classes>
+      <class name="testNGPackage.testNGGrouping">
+        <methods>
+          <include name="Login"/>
+          <include name="Quote"/>
+        </methods>
+      </class> <!-- testNGPackage.testNGGrouping -->
+    </classes>
+  </test> <!-- testNGTest(failed) -->
+</suite> <!-- Failed suite [MytestSuite] -->
