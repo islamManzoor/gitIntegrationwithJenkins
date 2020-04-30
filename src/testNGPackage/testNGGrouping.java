@@ -24,7 +24,7 @@ public class testNGGrouping {
 	@Test(groups= {"functional"})
 	public void Cancel()
 	{
-		System.out.println("Cancel Successfully!");
+		System.out.println("Cancel Successfully & refund 100%s!");
 	}
 	
 	@Test(groups= {"functional"})
